@@ -1,0 +1,55 @@
+{
+  "name": "postcss-transform-css-var",
+  "version": "1.0.0",
+  "description": "A PostCSS plugin to convert CSS variables to Less variables",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": "https://github.com/luckymore/postcss-transform-css-var.git",
+  "homepage": "https://github.com/luckymore/postcss-transform-css-var#readme",
+  "bugs": "https://github.com/luckymore/postcss-transform-css-var/issues",
+  "keywords": [
+    "postcss",
+    "postcss-plugin",
+    "preprocessor",
+    "plugin",
+    "css",
+    "style",
+    "variable",
+    "less"
+  ],
+  "author": "luckymore <flyflydogdog@gmail.com>",
+  "contributors": [
+    "luckymore <flyflydogdog@gmail.com>"
+  ],
+  "maintainers": [
+    "luckymore <flyflydogdog@gmail.com>"
+  ],
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "eslintConfig": {
+    "extends": "standard",
+    "env": {
+      "es6": true,
+      "jest": true
+    }
+  },
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/"
+  },
+  "dependencies": {
+    "postcss": "^8.4.14",
+    "postcss-less": "^6.0.0",
+    "postcss-plugin-utilities": "^2.2.9"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "eslint": "^4.18.2",
+    "eslint-config-postcss": "^2.0.2",
+    "jest": "^22.4.2"
+  }
+}
