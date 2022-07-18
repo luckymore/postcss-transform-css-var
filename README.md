@@ -80,5 +80,9 @@ npm test
 ## Special thanks
 This package is a fork of [postcss-css-var-to-less-var](https://github.com/lauthieb/postcss-css-var-to-less-var). Thanks a lot [lauthieb](https://github.com/lauthieb) for this great work!
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=luckymore/postcss-transform-css-var&type=Date)](https://star-history.com/#luckymore/postcss-transform-css-var&Date)
+
 ## License
 This project is licensed under the [MIT License](./LICENSE).
